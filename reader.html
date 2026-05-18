@@ -328,6 +328,7 @@ function fL(url,onOk,onFail){
   ['catch'](function(){
     // Fallback to CORS proxies
     var ps=[
+      'http://localhost:3001/proxy?url=',
       'https://api.allorigins.win/raw?url=',
       'https://corsproxy.lol/?url=',
       'https://corsproxy.io/?'
